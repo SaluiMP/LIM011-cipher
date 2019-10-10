@@ -7,7 +7,29 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <div id="cajaPrincipal">
+        <h1>BIENVENIDO</h1>
+    <label for="writeText">inserta tu mensaje </label> </p>
+    <input class="writename" type="text" id="writeText" value=""> <br> <br>
+
+    <label for="writeText">inserta el numero de desplazamiento (key)</label> </p>
+    <input class="writename" type="text" id="key" value=""> <br> <br>
+
+    <button class="boton" type="button" name="button" Id="resultado">Calcular
+    </button> <br> <br>
+
+    <label>Mensaje cifrado: </label> 
+    <label id="cypherValue"></label> <p></p>
+
+
+
+    <label>Desplazamiento (key): </label> <p></p>
+    <input class="writename" type="text" id="secretKey" value=""> <br><br>
+
+    <button class="boton" type="button" name="button" id="descifrar" >calcular</button> <br> <br>
+
+    <label for="writeText">Texto descifrado: </label> <label id="original"></label> <br> <br>
+    </div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
