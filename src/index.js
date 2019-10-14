@@ -1,50 +1,21 @@
-let btnResultado = document.getElementById("resultado");
+const btnResultado = document.getElementById('resultado');
 
-btnResultado.addEventListener("click", function () {
-    let inputMensaje = document.getElementById("writeText"); //obtengo el objeto input
-    let inputDesplazamiento = document.getElementById("key"); //obtengo el objeto input
-
-    let mensaje = inputMensaje.value; //texto/value del input
-    let desplazamiento = inputDesplazamiento.value;
-    let resultado = window.cipher.encode(desplazamiento, mensaje);
-    //invocar
-
-
-    /*let desplazamiento = inputDesplazamiento.value; //texto/value del input
-      let resultado = "";
-    
-      for (i = 0; i < mensaje.length; i++) {
-        //para letras mayúsculas
-        let cypherValue =
-          ((mensaje.charCodeAt(i) - 65 + parseInt(desplazamiento)) % 26) + 65; //ENCRIPTAR
-        resultado = resultado + String.fromCharCode(cypherValue);
-      }*/
-
-    let labelCypherValue = document.getElementById("cypherValue"); //label cypherValue
-    labelCypherValue.innerText = resultado;
+btnResultado.addEventListener('click', () => {
+  const inputMensaje = document.getElementById('writeText');
+  const inputDesplazamiento = document.getElementById('key');
+  const mensaje = inputMensaje.value;
+  const desplazamiento = inputDesplazamiento.value;
+  const resultado = window.cipher.encode(desplazamiento, mensaje);
+  const labelCypherValue = document.getElementById('cypherValue');
+  labelCypherValue.innerText = resultado;
 });
 
-//buton descrifrado
+const btnDescifrar = document.getElementById('descifrar');
 
-let btnDescifrar = document.getElementById("descifrar");
-
-btnDescifrar.addEventListener("click", function () {
-    let labelCypherValue = document.getElementById("cypherValue").innerText;
-    let inputsecretKey = document.getElementById("secretKey").value;
-
-
-    //decode 
-    let res = window.cipher.decode(inputsecretKey, labelCypherValue);
-    /*let cifrado = labelCypherValue.innerText;
-    let desp = inputsecretKey.value;
-    let res = "";
-    let original = "";
-  
-    for (i = 0; i < cifrado.length; i++) {
-      original = ((cifrado.charCodeAt(i) - 65 - parseInt(desp) + 26) % 26) + 65;
-      res = res + String.fromCharCode(original);
-    } */
-
-    let labelOriginal = document.getElementById("original");
-    labelOriginal.innerText = res;
+btnDescifrar.addEventListener('click', () => {
+  const labelCypherValue = document.getElementById('cypherValue').innerText;
+  const inputsecretKey = document.getElementById('secretKey').value;
+  const res = window.cipher.decode(inputsecretKey, labelCypherValue);
+  const labelOriginal = document.getElementById('original');
+  labelOriginal.innerText = res;
 });

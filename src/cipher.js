@@ -1,33 +1,24 @@
 window.cipher = {
-  encode: function (offset, string) {
+  encode(offset, string) {
+    let resultado = '';
+    let cypherValue = 0;
 
-    //ENCRIPTADO
-    let resultado = "";
-
-    for (let i = 0; i < string.length; i++) {
-
-      let cypherValue =
-        ((string.charCodeAt(i) - 65 + parseInt(offset)) % 26) + 65; //ENCRIPTAR
-      resultado = resultado + String.fromCharCode(cypherValue);
-
+    for (let i = 0; i < string.length; i += 1) {
+      cypherValue = ((string.charCodeAt(i) - 65 + parseInt(offset, 10)) % 26) + 65;
+      resultado += String.fromCharCode(cypherValue);
     }
 
     return resultado;
   },
+  decode(offset, string) {
+    let res = '';
+    let original = 0;
 
-
-  decode: function (offset, string) {
-
-    //DESENCRIPTADO
-    let res = "";
-
-    for (let i = 0; i < string.length; i++) {
-      let original = ((string.charCodeAt(i) - 65 - parseInt(offset) + 26) % 26) + 65;
-      res = res + String.fromCharCode(original);
+    for (let i = 0; i < string.length; i += 1) {
+      original = ((string.charCodeAt(i) - 65 - parseInt(offset, 10) + 26) % 26) + 65;
+      res += String.fromCharCode(original);
     }
 
     return res;
-  }
-
-}
-
+  },
+};
