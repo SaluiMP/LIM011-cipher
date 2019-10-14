@@ -2,7 +2,7 @@ global.window = global;
 require('../src/cipher');
 
 describe('cipher', () => {
-  it('debería ser un object', () => {
+  it('', () => {
     expect(typeof cipher).toBe('object');
   });
   describe('cipher.encode', () => {
