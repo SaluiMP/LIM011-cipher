@@ -284,3 +284,58 @@ Organización del Trabajo:
 * [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
   esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
   poco a lo largo del -_bootcamp_.
+
+
+Herramientas:
+
+* GitHub y GitHub Pages.
+
+Organización del Trabajo:
+
+* [Metodologías Ágiles](https://www.youtube.com/watch?v=v3fLx7VHxGM)
+* [Scrum en menos de 2 minutos](https://www.youtube.com/watch?v=TRcReyRYIMg)
+* [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
+  esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
+  poco a lo largo del -_bootcamp_.
+
+  ## Objetivos de aprendizaje Cipher
+​
+A continuación te presentamos los objetivos de aprendizaje de este proyecto. Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplicar** en tu proyecto.
+​
+### UX
+​
+- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] Crear prototipos para obtener feedback e iterar.
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+​
+### HTML y CSS
+​
+- [x] Uso correcto de HTML semántico.
+- [x] Uso de selectores de CSS.
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
+​
+### DOM
+​
+- [ ] Uso de selectores del DOM.
+- [ ] Manejo de eventos del DOM.
+- [ ] Manipulación dinámica del DOM.
+​
+### Javascript
+​
+- [x] Manipulación de strings.
+- [x] Uso de condicionales (if-else | switch).
+- [x] Uso de bucles (for | do-while).	
+- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [ ] Declaración correcta de variables (const & let).
+​
+### Testing
+- [ ] Testeo de tus funciones.
+​
+### Git y GitHub
+- [x] Comandos de git (add | commit | pull | status | push).
+- [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+​
+### Buenas prácticas de desarrollo
+- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [x] Uso de linter para seguir buenas prácticas (ESLINT).
+Collapse
