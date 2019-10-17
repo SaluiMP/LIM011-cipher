@@ -1,27 +1,25 @@
 # Un título con el nombre de tu proyecto.
 THE BEATLE - CODE AND DECODE
 # Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-DE DOS USUARIOS QUE NECESITAN COMUNICARSE MEDIANTE UNA MENSAJERIA INTERNA A TRAVEZ DE CODIGOS CIFRADOS
+DE DOS USUARIOS BASICAMENTE QUE NECESITAN COMUNICARSE MEDIANTE UNA MENSAJERIA INTERNA A TRAVEZ DE CODIGOS CIFRADOS
 # La imagen final de tu proyecto.
  ![appweb - final](https://github.com/SaluiMP/LIM011-cipher/blob/master/src/imagewebsite.jpg)
   
  
 * Investigación UX:
-  # Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
+  # Explicar quiénes son los usuarios y los objetivos en relación con el producto.
 
-    los usuarios son todo el personal de artilleria que se encuentran en un campamento y necesitan enviarse informacion reservada y se estan comunicando a traves de informacion cifrada.
+    Los usuarios son todo el personal de artilleria que se encuentran en un campamento y necesitan enviarse informacion reservada y se estan comunicando a traves de informacion cifrada enviandose palabras cortas. 
 
-  # Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
-    los usuraios se encuentran distantes y necesitan enviarse informacion sobre sus ubicaciones y estrategias de ataque y el mensaje sera descifrado mediante una clave que solo entre ellos saben.
+  # Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
+    Los usuraios se encuentran distantes y necesitan enviarse informacion sobre sus ubicaciones y estrategias de ataque y el mensaje sera descifrado mediante una clave que solo entre ellos saben.
 
   # Luego colocarás la foto de tu primer prototipo en papel.
 
   ![prototipo](https://github.com/SaluiMP/LIM011-cipher/blob/master/src/prototipo.jpg)
 
   # Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-    Les presente a mis compañeras una base de diseño que aun no habia terminado, me recomendaron que modificara algunos elementos como colores, tamaño de texto. etc
+    Les presenté a mis compañeras una base de diseño que aun no habia terminado y me recomendaron que modificara algunos elementos como colores, tamaño de texto. etc
 
   # Imagen del prototipo final.
 
@@ -42,7 +40,7 @@ A continuación te presentamos los objetivos de aprendizaje de este proyecto. Re
 ​
 - [x] Uso correcto de HTML semántico.
 - [x] Uso de selectores de CSS.
-- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [] Construir tu aplicación respetando el diseño realizado (maquetación).
 ​
 ### DOM
 ​
