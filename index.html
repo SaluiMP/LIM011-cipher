@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body> 
+      <h1 class="logo">THE BATTLE</h1>
+    <div id="root">
+      <div id="cajaPrincipal">
+        <h2 class="slogan">CODE&DECODE</h2>
+        <div class="cajacentro"></div>
+    <div class="infocentro">
+    <label class="mensaje" for="writeText"> Mensaje </label> <br>
+    <input class="writename1" type="text" id="writeText" value=""> <br> <br>
+
+    <label class="clavesecreta" for="writeText"> Clave secreta </label>
+    <input class="writename2" type="text" id="key" value=""> <br> <br>
+
+    <button class="boton1" type="button" name="button" id="resultado">Enviar
+    </button> <br> <br>
+
+    <label class="mensajerecibido" >Mensaje Recibido: </label> <br>
+    <label class="textocifrado" id="cypherValue"></label> <p></p> <br> <br>
+
+
+
+    <label class="clavesecreta2" >Clave Secreta </label> <p></p>
+    <input class="writename3" type="text" id="secretKey" value=""> <br><br>
+    
+    <button class="boton2" type="button" name="button" id="descifrar" >Enviar</button> <br> <br>
+
+    <label class="mensajeDescifrado" for="writeText">Mensaje Descifrado: </label> <br>
+    <label class="textoDescifrado2" id="original"></label> <br> <br>
+
+    <button class="boton3" type="button" name="button" id="responder">Responder</button>
+
+    
+    </div>
+    
+    </div>
+    
+  </div>
+  
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
+  
+</html>
