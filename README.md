@@ -139,6 +139,7 @@ THE BEATLE - CODE AND DECODE
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
 DE DOS USUARIOS QUE NECESITAN COMUNICARSE MEDIANTE UNA MENSAJERIA INTERNA A TRAVEZ DE CODIGOS CIFRADOS
 * La imagen final de tu proyecto.
+ 
 
 
 * Investigación UX:
