@@ -16,6 +16,5 @@ btnDescifrar.addEventListener('click', () => {
   const labelCypherValue = document.getElementById('cypherValue').innerText;
   const inputsecretKey = document.getElementById('secretKey').value;
   const res = window.cipher.decode(inputsecretKey, labelCypherValue);
-  const labelOriginal = document.getElementById('original');
-  labelOriginal.innerText = res;
+  document.getElementById('original').innerHTML = res;
 });

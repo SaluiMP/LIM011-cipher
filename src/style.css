@@ -1,74 +1,191 @@
 body{
-    background-color: yellow;
-    width: 1340px;
-    height: 520px;
-}
-
-.bienvenida {
-    
-    position: relative;
-    width: 93px;
-    height: 54 px;
-    left: 20px;
-    right: 15px;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 54px;
-}
-
-
-
-    
-.ser {
-    
+    background-image: url(img/guerra6.jpg);
     position: absolute;
-    width: 50px;
-    height: 40px;
-    left: 180px;
-    right: 180px;
-    padding: px;
-    margin:-60px;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
+    
+
+   
+}
+@font-face { font-family: lato; src: url(latof/Lato-Black.ttf);}
+@font-face { font-family: lato; src: url(latof/Lato-BlackItalic.ttf);}
+@font-face { font-family: allan; src: url(allanf/Allan-Bold.ttf);}
+@font-face { font-family: lato; src: url(latof/Lato-Bold.ttf);}
+
+h1 {
+    position: relative;
+    font-family: allan;
+    font-size: 35px;
+    color: white;
+    right: -20px;
+    margin: 10;
+}
+ 
+.slogan {
+    font-family: allan;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    right: -112px;
+    margin:-36px;
+    
 }
 
-.sup{
-    position: absolute;
-    width: 50px;
-    height: 40px;
-    left: 280px;
-    right: 180px;
-    padding: px;
-    margin:-60px;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
-}
-
-.cajacentro {
-    position: relative;
-    left: 400px;
-    right: 500px;
-    position: relative;
-    background: rgba(92, 92, 92, 0.3);
-    position: absolute;
-    width: 570px;
-    height: 440px;
-    border-radius: 45px;
-}
 
 .infocentro {
     position: relative;
-    left: 500px;
-    right: -200px;
-    width: 570px;
+    left: 630px;
+    width: 500px;
     height: 440px;
+    margin:-550px;
+    padding: -500px;
+
+}
+
+.mensaje  {
+    position: relative;
+    font-family: lato;
+    font-size: 15px;
+    color: white;
+    right: -4px;
     
+    
+   
+}
+
+.writename1 {
+    border-radius: 3px;
+    width: 510px;
+    height: 50px;
+    border: 0px;
+    text-align: center;
+  
+
+}
+
+.clavesecreta {
+    position: relative;
+    font-family: lato; src: url(latof/Lato-BlackItalic.ttf);
+    font-size: 15px;
+    color: white;
+    right: -5px;
+    left: 330px;
+}
+.writename2 {
+    position: relative;
+    width: 85px;
+    height: 25px;
+    left: 335px;
+    margin: -4px;
+    border-radius: 3px;
+    border: 0px;
+    text-align: center;
+}
+
+.boton1 {
+    position: relative;
+    width: 68px;
+    height: 25px;
+    left: 445px;
+    color: white;
+    background: #592D2D;
+    border: 0px;
+    
+}
+
+.mensajerecibido {
+    position: relative;
+    font-family: lato;
+    font-size: 15px;
+    color: white;
+    right: -4px;
+    margin: -4px;
+}
+
+.textocifrado {
+    position: absolute;
+}
+
+.textocifrado {
+    font-family: lato;
+    color:white;
+    
+    font-style: italic;
+
+}
+
+.clavesecreta2 {
+    position: absolute;
+    font-family: lato; src: url(latof/Lato-BlackItalic.ttf);
+    font-size: 15px;
+    color: white;
+    right: -20px;
+   
+    margin: 16px;
+    left: 309px;
+
+}
+
+.writename3 {
+    position: relative;
+    width: 85px;
+    height: 25px;
+    left: 450px;
+    margin: -30px;
+    border-radius: 3px;
+    border: 0px;
+    text-align: center;
+}
+
+.boton2{
+    position: relative;
+    width: 68px;
+    height: 25px;
+    left: 445px;
+    color: white;
+    background: #592D2D;
+    border: 0px;
+    
+}
+
+.mensajeDescifrado {
+    position: relative;
+    font-family: lato;
+    font-size: 15px;
+    color: white;
+    right: -4px;
+
+}
+
+.textoDescifrado2 {
+    position: absolute;
+    font-family: lato;
+    color:white;
+    
+    font-style: italic;
+}
+
+.boton3{
+    position: relative;
+    width: 74px;
+    height: 25px;
+    left: 380px;
+    color: white;
+    background: #592D2D;
+    border: 0px;
+    margin: 60px;
+    text-align: center;
+
+    
+}
+
+.cajacentro {
+    
+    
+    right: 10px;
+    position: relative;
+    background: rgba(3, 3, 3, 0.6);
+    border-radius: 14px;
+    width: 590px;
+    height: 510px;
+    border-radius: 10px;
+    margin:60px;
 }

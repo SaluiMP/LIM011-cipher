@@ -135,8 +135,12 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+THE BEATLE - CODE AND DECODE
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+DE DOS USUARIOS QUE NECESITAN COMUNICARSE MEDIANTE UNA MENSAJERIA INTERNA A TRAVEZ DE CODIGOS CIFRADOS
 * La imagen final de tu proyecto.
+
+
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
