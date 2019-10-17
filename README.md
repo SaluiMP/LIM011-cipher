@@ -140,8 +140,8 @@ THE BEATLE - CODE AND DECODE
 DE DOS USUARIOS QUE NECESITAN COMUNICARSE MEDIANTE UNA MENSAJERIA INTERNA A TRAVEZ DE CODIGOS CIFRADOS
 * La imagen final de tu proyecto.
  
-
-
+  ![prototipo] (https://github.com/SaluiMP/LIM011-cipher/blob/master/src/prototipo.jpg)
+ 
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
