@@ -11,6 +11,9 @@ window.cipher = {
       } else if (code >= 97 && code <= 122) {
         cypherValue = ((string.charCodeAt(i) - 97 + parseInt(offset, 10)) % 26) + 97;
         resultado += String.fromCharCode(cypherValue);
+      } else if (code >= 48 && code <= 57) {
+        cypherValue = ((string.charCodeAt(i) - 48 + parseInt(offset, 10)) % 10) + 48;
+        resultado += String.fromCharCode(cypherValue);
       }
     }
     return resultado;
